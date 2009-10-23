@@ -1,0 +1,250 @@
+d8ffff has been reserved
+[    8.959286] pnp: 00:09: iomem range 0xfec00000-0xfec00fff has been reserved
+[    8.959294] pnp: 00:09: iomem range 0xfee00000-0xfee00fff could not be reserved
+[    8.959308] pnp: 00:0a: iomem range 0xe0000000-0xefffffff has been reserved
+[    8.959320] pnp: 00:0b: iomem range 0xe0000000-0xefffffff has been reserved
+[    8.959333] pnp: 00:0c: iomem range 0x0-0x9ffff could not be reserved
+[    8.959341] pnp: 00:0c: iomem range 0xc0000-0xcffff could not be reserved
+[    8.959349] pnp: 00:0c: iomem range 0xe0000-0xfffff could not be reserved
+[    8.959357] pnp: 00:0c: iomem range 0x100000-0x3f7fffff could not be reserved
+[    8.965530] Time: tsc clocksource has been installed.
+[    8.989875] PCI: Ignore bogus resource 6 [0:0] of 0000:00:02.0
+[    8.989886] PCI: Bridge: 0000:00:1c.0
+[    8.989890]   IO window: disabled.
+[    8.989898]   MEM window: disabled.
+[    8.989905]   PREFETCH window: disabled.
+[    8.989913] PCI: Bridge: 0000:00:1c.1
+[    8.989917]   IO window: disabled.
+[    8.989926]   MEM window: fbf00000-fbffffff
+[    8.989933]   PREFETCH window: disabled.
+[    8.989941] PCI: Bridge: 0000:00:1c.2
+[    8.989945]   IO window: disabled.
+[    8.989953]   MEM window: f8000000-fbefffff
+[    8.989962]   PREFETCH window: f0000000-f6ffffff
+[    8.989970] PCI: Bridge: 0000:00:1e.0
+[    8.989974]   IO window: disabled.
+[    8.989981]   MEM window: disabled.
+[    8.989988]   PREFETCH window: disabled.
+[    8.990808] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 5
+[    8.990815] PCI: setting IRQ 5 as level-triggered
+[    8.990823] ACPI: PCI Interrupt 0000:00:1c.0[A] -> Link [LNKA] -> GSI 5 (level, low) -> IRQ 5
+[    8.990838] PCI: Setting latency timer of device 0000:00:1c.0 to 64
+[    8.991560] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+[    8.991566] PCI: setting IRQ 11 as level-triggered
+[    8.991573] ACPI: PCI Interrupt 0000:00:1c.1[B] -> Link [LNKB] -> GSI 11 (level, low) -> IRQ 11
+[    8.991586] PCI: Setting latency timer of device 0000:00:1c.1 to 64
+[    8.992305] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+[    8.992311] PCI: setting IRQ 10 as level-triggered
+[    8.992318] ACPI: PCI Interrupt 0000:00:1c.2[C] -> Link [LNKC] -> GSI 10 (level, low) -> IRQ 10
+[    8.992331] PCI: Setting latency timer of device 0000:00:1c.2 to 64
+[    8.992349] PCI: Setting latency timer of device 0000:00:1e.0 to 64
+[    8.992395] NET: Registered protocol family 2
+[    9.085574] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    9.085743] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+[    9.087804] TCP bind hash table entries: 65536 (order: 6, 262144 bytes)
+[    9.088454] TCP: Hash tables configured (established 131072 bind 65536)
+[    9.088462] TCP reno registered
+[    9.115815] checking if image is initramfs... it is
+[    9.167402] Freeing initrd memory: 247k freed
+[    9.168148] Registering unionfs 2.0
+[    9.168220] io scheduler noop registered
+[    9.168226] io scheduler deadline registered (default)
+[    9.168592] PCI: Setting latency timer of device 0000:00:1c.0 to 64
+[    9.168649] assign_interrupt_mode Found MSI capability
+[    9.168656] Allocate Port Service[0000:00:1c.0:pcie00]
+[    9.168728] Allocate Port Service[0000:00:1c.0:pcie02]
+[    9.168841] PCI: Setting latency timer of device 0000:00:1c.1 to 64
+[    9.168896] assign_interrupt_mode Found MSI capability
+[    9.168903] Allocate Port Service[0000:00:1c.1:pcie00]
+[    9.168960] Allocate Port Service[0000:00:1c.1:pcie02]
+[    9.169071] PCI: Setting latency timer of device 0000:00:1c.2 to 64
+[    9.169126] assign_interrupt_mode Found MSI capability
+[    9.169132] Allocate Port Service[0000:00:1c.2:pcie00]
+[    9.169191] Allocate Port Service[0000:00:1c.2:pcie02]
+[    9.169485] vesafb: framebuffer at 0xd0000000, mapped to 0xf8880000, using 1200k, total 7872k
+[    9.169494] vesafb: mode is 640x480x16, linelength=1280, pages=12
+[    9.169501] vesafb: protected mode interface info at 00ff:44f0
+[    9.169506] vesafb: scrolling: redraw
+[    9.169513] vesafb: Truecolor: size=0:5:6:5, shift=0:11:5:0
+[    9.183725] Console: switching to colour frame buffer device 80x30
+[    9.197641] fb0: VESA VGA frame buffer device
+[    9.318741] Linux agpgart interface v0.102 (c) Dave Jones
+[    9.318824] agpgart: Detected an Intel 915GM Chipset.
+[    9.319139] agpgart: Detected 7932K stolen memory.
+[    9.347256] agpgart: AGP aperture is 256M @ 0xd0000000
+[    9.347320] [drm] Initialized drm 1.1.0 20060810
+[    9.347361] ACPI: PCI Interrupt 0000:00:02.0[A] -> Link [LNKA] -> GSI 5 (level, low) -> IRQ 5
+[    9.347490] [drm] Initialized i915 1.6.0 20060119 on minor 0
+[    9.348386] RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+[    9.348845] loop: loaded (max 8 devices)
+[    9.349153] tun: Universal TUN/TAP device driver, 1.6
+[    9.349159] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    9.349354] ata_piix 0000:00:1f.2: version 2.10ac1
+[    9.349365] ata_piix 0000:00:1f.2: MAP [ P0 P2 IDE IDE ]
+[    9.350240] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 7
+[    9.350247] PCI: setting IRQ 7 as level-triggered
+[    9.350255] ACPI: PCI Interrupt 0000:00:1f.2[B] -> Link [LNKD] -> GSI 7 (level, low) -> IRQ 7
+[    9.350287] PCI: Setting latency timer of device 0000:00:1f.2 to 64
+[    9.350380] ata1: SATA max UDMA/133 cmd 0x000101f0 ctl 0x000103f6 bmdma 0x0001ffa0 irq 14
+[    9.350425] ata2: PATA max UDMA/100 cmd 0x00010170 ctl 0x00010376 bmdma 0x0001ffa8 irq 15
+[    9.350453] scsi0 : ata_piix
+[    9.516457] ATA: abnormal status 0x7F on port 0x000101f7
+[    9.516496] scsi1 : ata_piix
+[    9.695743] ata2.00: ATA-4: SILICONMOTION SM223AC, , max UDMA/66
+[    9.695750] ata2.00: 7815024 sectors, multi 0: LBA 
+[    9.715736] ata2.00: configured for UDMA/33
+[    9.715929] scsi 1:0:0:0: Direct-Access     ATA      SILICONMOTION SM n/a  PQ: 0 ANSI: 5
+[    9.716097] SCSI device sda: 7815024 512-byte hdwr sectors (4001 MB)
+[    9.716119] sda: Write Protect is off
+[    9.716124] sda: Mode Sense: 00 3a 00 00
+[    9.716151] SCSI device sda: write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    9.716238] SCSI device sda: 7815024 512-byte hdwr sectors (4001 MB)
+[    9.716254] sda: Write Protect is off
+[    9.716259] sda: Mode Sense: 00 3a 00 00
+[    9.716284] SCSI device sda: write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    9.716292]  sda: sda1 sda3 sda4
+[    9.716946] sd 1:0:0:0: Attached scsi disk sda
+[    9.717185] PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[    9.732724] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    9.732734] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    9.732987] mice: PS/2 mouse device common for all mice
+[    9.759839] input: AT Translated Set 2 keyboard as /class/input/input0
+[    9.771430] TCP cubic registered
+[    9.771463] NET: Registered protocol family 1
+[    9.771472] NET: Registered protocol family 17
+[    9.771487] Using IPI Shortcut mode
+[    9.771809] Freeing unused kernel memory: 164k freed
+[    9.775994] EXT2-fs warning: maximal mount count reached, running e2fsck is recommended
+[   10.027569] Generic RTC Driver v1.07
+[   10.392947] Synaptics Touchpad, model: 1, fw: 6.3, id: 0x180b1, caps: 0xa04753/0x200000
+[   10.490432] input: SynPS/2 Synaptics TouchPad as /class/input/input1
+[   13.746100] ACPI: PCI Interrupt 0000:00:1b.0[A] -> Link [LNKA] -> GSI 5 (level, low) -> IRQ 5
+[   13.746146] PCI: Setting latency timer of device 0000:00:1b.0 to 64
+[   14.324875] jack present = 0 0
+[   14.431905] ACPI: AC Adapter [AC0] (on-line)
+[   14.986811] ACPI: Battery Slot [BAT0] (battery present)
+[   15.002107] ACPI: CPU0 (power states: C1[C1] C2[C2] C3[C3])
+[   15.002123] ACPI: Processor [CPU1] (supports 8 throttling states)
+[   15.107031] input: Power Button (FF) as /class/input/input2
+[   15.107091] ACPI: Power Button (FF) [PWRF]
+[   15.107327] input: Lid Switch as /class/input/input3
+[   15.107353] ACPI: Lid Switch [LID]
+[   15.107435] input: Sleep Button (CM) as /class/input/input4
+[   15.107480] ACPI: Sleep Button (CM) [SLPB]
+[   15.107563] input: Power Button (CM) as /class/input/input5
+[   15.107597] ACPI: Power Button (CM) [PWRB]
+[   15.133188] eeepc_hotk: module license 'unspecified' taints kernel.
+[   15.134743] Asus EEEPC HOTKEY
+[   15.135140] [eeepc hotk] Hotkey init flags 0x41.
+[   15.136788] [eeepc hotk] Get control methods supported : 0x101701
+[   15.202034] fuse init (API version 7.8)
+[   15.326925] usbcore: registered new interface driver usbfs
+[   15.326975] usbcore: registered new interface driver hub
+[   15.327021] usbcore: registered new device driver usb
+[   15.333336] usbcore: registered new interface driver usbhid
+[   15.333350] drivers/usb/input/hid-core.c: v2.6:USB HID core driver
+[   15.536264] USB Universal Host Controller Interface driver v3.0
+[   15.537224] ACPI: PCI Interrupt Link [LNKH] enabled at IRQ 3
+[   15.537233] PCI: setting IRQ 3 as level-triggered
+[   15.537241] ACPI: PCI Interrupt 0000:00:1d.0[A] -> Link [LNKH] -> GSI 3 (level, low) -> IRQ 3
+[   15.537263] PCI: Setting latency timer of device 0000:00:1d.0 to 64
+[   15.537271] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+[   15.537465] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 1
+[   15.537507] uhci_hcd 0000:00:1d.0: irq 3, io base 0x0000e400
+[   15.537742] usb usb1: configuration #1 chosen from 1 choice
+[   15.537796] hub 1-0:1.0: USB hub found
+[   15.537813] hub 1-0:1.0: 2 ports detected
+[   15.644983] ACPI: PCI Interrupt 0000:00:1d.1[B] -> Link [LNKD] -> GSI 7 (level, low) -> IRQ 7
+[   15.645008] PCI: Setting latency timer of device 0000:00:1d.1 to 64
+[   15.645016] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+[   15.645059] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 2
+[   15.645102] uhci_hcd 0000:00:1d.1: irq 7, io base 0x0000e480
+[   15.645290] usb usb2: configuration #1 chosen from 1 choice
+[   15.645346] hub 2-0:1.0: USB hub found
+[   15.645362] hub 2-0:1.0: 2 ports detected
+[   15.754950] ACPI: PCI Interrupt 0000:00:1d.2[C] -> Link [LNKC] -> GSI 10 (level, low) -> IRQ 10
+[   15.754979] PCI: Setting latency timer of device 0000:00:1d.2 to 64
+[   15.754988] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+[   15.755031] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 3
+[   15.755071] uhci_hcd 0000:00:1d.2: irq 10, io base 0x0000e800
+[   15.755277] usb usb3: configuration #1 chosen from 1 choice
+[   15.755331] hub 3-0:1.0: USB hub found
+[   15.755344] hub 3-0:1.0: 2 ports detected
+[   15.864990] ACPI: PCI Interrupt 0000:00:1d.3[D] -> Link [LNKA] -> GSI 5 (level, low) -> IRQ 5
+[   15.865014] PCI: Setting latency timer of device 0000:00:1d.3 to 64
+[   15.865023] uhci_hcd 0000:00:1d.3: UHCI Host Controller
+[   15.865073] uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 4
+[   15.865111] uhci_hcd 0000:00:1d.3: irq 5, io base 0x0000e880
+[   15.865319] usb usb4: configuration #1 chosen from 1 choice
+[   15.865369] hub 4-0:1.0: USB hub found
+[   15.865385] hub 4-0:1.0: 2 ports detected
+[   15.986002] ACPI: PCI Interrupt 0000:00:1d.7[A] -> Link [LNKH] -> GSI 3 (level, low) -> IRQ 3
+[   15.986029] PCI: Setting latency timer of device 0000:00:1d.7 to 64
+[   15.986038] ehci_hcd 0000:00:1d.7: EHCI Host Controller
+[   15.986097] ehci_hcd 0000:00:1d.7: new USB bus registered, assigned bus number 5
+[   15.986150] ehci_hcd 0000:00:1d.7: debug port 1
+[   15.986161] PCI: cache line size of 32 is not supported by device 0000:00:1d.7
+[   15.986177] ehci_hcd 0000:00:1d.7: irq 3, io mem 0xf7eb7c00
+[   15.990063] ehci_hcd 0000:00:1d.7: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+[   15.990235] usb usb5: configuration #1 chosen from 1 choice
+[   15.990287] hub 5-0:1.0: USB hub found
+[   15.990300] hub 5-0:1.0: 8 ports detected
+[   16.131996] Atheros(R) L2 Ethernet Network Driver - version 1.0.40.4
+[   16.132005] Copyright (c) 2007 Atheros Corporation.
+[   16.132087] ACPI: PCI Interrupt 0000:03:00.0[A] -> Link [LNKB] -> GSI 11 (level, low) -> IRQ 11
+[   16.132110] PCI: Setting latency timer of device 0000:03:00.0 to 64
+[    7.660000] Time: acpi_pm clocksource has been installed.
+[    7.820000] usb 5-5: new high speed USB device using ehci_hcd and address 2
+[    7.820000] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    7.860000] pciehp: HPC vendor_id 8086 device_id 2660 ss_vid 0 ss_did 0
+[    7.860000] Load service driver hpdriver on pcie device 0000:00:1c.0:pcie02
+[    7.860000] pciehp: HPC vendor_id 8086 device_id 2662 ss_vid 0 ss_did 0
+[    7.860000] Load service driver hpdriver on pcie device 0000:00:1c.1:pcie02
+[    7.860000] pciehp: HPC vendor_id 8086 device_id 2664 ss_vid 0 ss_did 0
+[    7.860000] Load service driver hpdriver on pcie device 0000:00:1c.2:pcie02
+[    7.860000] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    7.880000] Clocksource tsc unstable (delta = -76837088 ns)
+[    7.890000] ath_hal: 0.9.17.1 (AR5212, RF5111, RF5112, RF2413, RF5413)
+[    7.900000] ath_dfs: Version 2.0.0
+[    7.900000] Copyright (c) 2005-2006 Atheros Communications, Inc. All Rights Reserved
+[    7.950000] wlan: 0.8.4.2 (Atheros/multi-bss)
+[    7.950000] ath_rate_atheros: no version for "ath_hal_getuptime" found: kernel tainted.
+[    7.950000] ath_rate_atheros: Version 2.0.1
+[    7.950000] Copyright (c) 2001-2004 Atheros Communications, Inc, All Rights Reserved
+[    7.970000] usb 5-5: configuration #1 chosen from 1 choice
+[    7.980000] ath_pci: 0.9.4.5 (Atheros/multi-bss)
+[    7.980000] ACPI: PCI Interrupt 0000:01:00.0[A] -> Link [LNKC] -> GSI 10 (level, low) -> IRQ 10
+[    7.980000] PCI: Setting latency timer of device 0000:01:00.0 to 64
+[    8.580000] wifi0: 11b rates: 1Mbps 2Mbps 5.5Mbps 11Mbps
+[    8.580000] wifi0: 11g rates: 1Mbps 2Mbps 5.5Mbps 11Mbps 6Mbps 9Mbps 12Mbps 18Mbps 24Mbps 36Mbps 48Mbps 54Mbps
+[    8.580000] wifi0: mac 14.2 phy 7.0 radio 10.2
+[    8.580000] wifi0: Use hw queue 1 for WME_AC_BE traffic
+[    8.580000] wifi0: Use hw queue 0 for WME_AC_BK traffic
+[    8.580000] wifi0: Use hw queue 2 for WME_AC_VI traffic
+[    8.580000] wifi0: Use hw queue 3 for WME_AC_VO traffic
+[    8.580000] wifi0: Use hw queue 8 for CAB traffic
+[    8.580000] wifi0: Use hw queue 9 for beacons
+[    8.580000] wifi0: Atheros 5212: mem=0xfbef0000, irq=10
+[    8.650000] usbcore: registered new interface driver libusual
+[    8.660000] Initializing USB Mass Storage driver...
+[    8.660000] scsi2 : SCSI emulation for USB Mass Storage devices
+[    8.660000] usb-storage: device found at 2
+[    8.660000] usb-storage: waiting for device to settle before scanning
+[    8.660000] usbcore: registered new interface driver usb-storage
+[    8.660000] USB Mass Storage support registered.
+[   13.660000] scsi 2:0:0:0: Direct-Access     USB2.0   CardReader SD0   0100 PQ: 0 ANSI: 0
+[   14.190000] SCSI device sdb: 8024064 512-byte hdwr sectors (4108 MB)
+[   14.200000] sdb: Write Protect is off
+[   14.200000] sdb: Mode Sense: 03 00 00 00
+[   14.200000] sdb: assuming drive cache: write through
+[   14.210000] SCSI device sdb: 8024064 512-byte hdwr sectors (4108 MB)
+[   14.220000] sdb: Write Protect is off
+[   14.220000] sdb: Mode Sense: 03 00 00 00
+[   14.220000] sdb: assuming drive cache: write through
+[   14.220000]  sdb: sdb1
+[   14.230000] sd 2:0:0:0: Attached scsi removable disk sdb
+[   14.230000] usb-storage: device scan complete
+[   16.260000] kjournald starting.  Commit interval 5 seconds
+[   16.390000] EXT3 FS on sdb1, internal journal
+[   16.390000] EXT3-fs: mounted filesystem with ordered data mode.
+[   18.890000] p4-clockmod: P4/Xeon(TM) CPU On-Demand Clock Modulation available
