@@ -1,0 +1,9 @@
+* Install LFS
+* Add bootstrap programs
+* Compile Kernel
+** make defconfig
+** make menuconfg
+*** Processor type and features: choose Pentium M
+*** Device Drivers 
+
+
