@@ -14,3 +14,5 @@ Important Note: Must select [ ] Enable modesetting on intel for default
 ** Ethernet (10 or 100Mbit): Important, select Atheros L2 Fast Ethernet support
 ** Wireless LAN
 Note: Atheros 5xxx wireless cards support is already selected
+
+run make
