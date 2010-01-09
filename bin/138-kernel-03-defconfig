@@ -1,0 +1,4 @@
+#!/bin/bash
+make mrproper
+make defconfig
+cp .config defconfig
