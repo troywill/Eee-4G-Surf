@@ -2,8 +2,9 @@
 LFS=/mnt/build_dir
 
 mount -v --bind /dev $LFS/dev
-# mount -v -t devpts devpts $LFS/dev/pts
-# mount -v -t tmpfs shm $LFS/dev/shm
-# mount -v -t proc proc $LFS/proc
-# mount -v -t sysfs sysfs $LFS/sys
+mount -v -t devpts devpts $LFS/dev/pts
+mount -v -t tmpfs shm $LFS/dev/shm
+mount -v -t proc proc $LFS/proc
+mount -v -t sysfs sysfs $LFS/sys
+
 

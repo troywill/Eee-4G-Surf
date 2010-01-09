@@ -1,0 +1,15 @@
+#!/bin/bash
+make modules_install
+cp -v arch/x86/boot/bzImage /boot/vmlinux-2.6.32.2-lfs-SVN-20100103
+cp -v System.map /boot/System.map-2.6.32.2
+cp -v .config /boot/config-2.6.32.2
+install -d /usr/share/doc/linux-2.6.32.2
+cp -r Documentation/* /usr/share/doc/linux-2.6.32.2
+cat > /etc/modprobe.conf << "EOF"
+# Begin /etc/modprobe.conf
+
+install ohci_hcd /sbin/modprobe ehci_hcd ; /sbin/modprobe -i ohci_hcd ; true
+install uhci_hcd /sbin/modprobe ehci_hcd ; /sbin/modprobe -i uhci_hcd ; true
+
+# End /etc/modprobe.conf
+EOF

@@ -1,6 +1,6 @@
 #!/bin/bash
 LFS='/mnt/build_dir'
-TERM='Linux'
+# TERM='Linux'
 
 chroot "$LFS" /usr/bin/env --ignore-environment \
     HOME=/root TERM="$TERM" PS1='\u:\w\$ ' \
