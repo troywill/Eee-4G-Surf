@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# $Id: 909-sudo 3213 2006-11-11 11:39:16Z manuel $
+
+set -e
+cd $PKGDIR
+
+patch -Np1 -i ../sudo-1.6.8p12-envvar_fix-1.patch
+./configure --prefix=/usr --libexecdir=/usr/lib \
+    --enable-noargs-shell --with-ignore-dot --with-all-insults \
+    --enable-shell-sets-home
+make
+make install
+
+exit
