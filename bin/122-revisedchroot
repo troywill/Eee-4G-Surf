@@ -1,5 +1,7 @@
 #!/bin/bash
 LFS='/mnt/build_dir'
+LFS=$1
+
 # TERM='Linux'
 
 chroot "$LFS" /usr/bin/env --ignore-environment \
