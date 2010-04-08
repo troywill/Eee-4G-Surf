@@ -1,5 +1,5 @@
 #!/bin/bash
-KERNEL_VERSION='2.6.32.2'
+KERNEL_VERSION='2.6.33.1'
 LFS_VERSION='lfs-SVN-20100327'
 make modules_install
 cp -v arch/x86/boot/bzImage /boot/vmlinux-${KERNEL_VERSION}-${LFS_VERSION}
