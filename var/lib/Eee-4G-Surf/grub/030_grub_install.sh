@@ -7,6 +7,6 @@ dd bs=512 count=1 ${INPUT_DEVICE}/dev/sda of=${OUTPUT_FILE}
 # Make another copy of mbr
 cp --backup ${OUTPUT_FILE} ~
 
-grub-install /dev/sda
-
+# grub-install /dev/sda
+grub-install /dev/sdb
 dd bs=512 count=1 ${INPUT_DEVICE} /root/mbr.after.grub.install
