@@ -9,4 +9,4 @@ cp --backup ${OUTPUT_FILE} ~
 
 # grub-install /dev/sda
 grub-install /dev/sdb
-dd bs=512 count=1 if=${INPUT_DEVICE} /root/mbr.after.grub.install
+dd bs=512 count=1 if=${INPUT_DEVICE} of=/root/mbr.after.grub.install
